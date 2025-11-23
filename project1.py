@@ -35,7 +35,7 @@ class Weight2Go(wx.Frame):
 
     def build_input(self, notebook):
         panel = self.input
-        panel.SetBackgroundColour("#511C1C")
+        panel.SetBackgroundColour("#7E4873")
 
         vbox = wx.BoxSizer(wx.VERTICAL)
 
@@ -82,7 +82,7 @@ class Weight2Go(wx.Frame):
         panel.SetSizer(vbox)
 
     def build_tips(self):
-        self.tips.SetBackgroundColour("#511C1C")
+        self.tips.SetBackgroundColour("#7E4873")
         vbox = wx.BoxSizer(wx.VERTICAL)
 
         heading = wx.StaticText(self.tips, label="BMI Graph & Personalized Tips")
