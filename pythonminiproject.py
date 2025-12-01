@@ -50,13 +50,13 @@ def plot_bmi_graph(event):
 def tips(event):
     global bmi
     if bmi<18.5:
-        category="Underweight"
+        category="Underweight-Consider gaining some weight with nutritious food"
     elif bmi<24.9:
-        category="Normal"
+        category="Normal- You are fit! "
     elif bmi<29.9:
-        category="Slightly Overweight"
+        category="Slightly Overweight- Consider light exercise and balanced diet"
     else:
-        category="Overweight"
+        category="Overweight- Consider a healthier lifestyle with diet and exercise"
     
     gen=gender_input.GetValue()
     result2.SetLabel(f"Gender: {gen}")
